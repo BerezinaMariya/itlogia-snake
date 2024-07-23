@@ -1,7 +1,7 @@
 export class Snake {
     currentDirection = 'right';
     snake = [
-        {x: 10, y: 20}   // стартовое значение положения змейки
+        {x: 10, y: 10}   // стартовое значение положения змейки
     ];
 
     context = null;

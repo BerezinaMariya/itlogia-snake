@@ -2,7 +2,7 @@ import {Game} from "./modules/game.js";
 
 class App {
     settings = {
-        positionsCount: 30, // количество квадратиков в сетке
+        positionsCount: 15, // количество квадратиков в сетке
         positionsSize: 20   // размер одного квадратика (20х20px)
     }
 

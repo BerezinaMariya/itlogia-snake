@@ -33,7 +33,7 @@ export class Game {
         this.food.setNewFoodPosition();
         this.score = 0;
         this.scoreElement.innerText = this.score;
-        this.interval = setInterval(this.gameProcess.bind(this), 100)
+        this.interval = setInterval(this.gameProcess.bind(this), 200);
     }
 
     gameProcess() {
